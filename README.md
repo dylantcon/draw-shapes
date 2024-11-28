@@ -86,9 +86,9 @@ The user interface prioritizes:
 
 ### Challenges Solved
 
-1. **Efficient Shape Rendering**: Used LinkedList and Stack to manage actions and provide undo functionality without performance bottlenecks.
+1. **Efficient Shape Rendering**: Used `LinkedList`, `Stack`, and `ListIterator` to manage actions and provide undo functionality without performance bottlenecks.
 
-2. **Custom Geometry Parsing**: Implemented utilities like parsePoints to simplify coordinate management for shapes.
+2. **Custom Geometry Parsing**: Implemented utilities like `parsePoints` and `showGeom` to simplify coordinate management for shapes.
 
 3. **Dynamic Previews**: Designed translucent rendering for in-progress shapes, enhancing usability.
 
